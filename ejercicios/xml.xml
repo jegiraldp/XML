@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<fichero>HOLA
+	<cotizacion id="1">
+		<nombre edad="10">Cotizacion de pcs</nombre>
+		<mercado>hola</mercado>
+		<fecha>
+			<year>2007</year>
+			<mes>Marzo</mes>
+			<dia>hola2</dia>
+		</fecha>
+	</cotizacion>
+		<cotizacion id="2">
+		<nombre edad="12">Cotizacion de pcs</nombre>
+		<mercado>hola</mercado>
+		<fecha>
+			<year>2007</year>
+			<mes>Marzo</mes>
+			<dia>hola2</dia>
+		</fecha>
+	</cotizacion>
+	
+</fichero>

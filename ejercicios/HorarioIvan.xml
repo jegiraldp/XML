@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="HorarioIvan.xsl"?>
+<Horario>
+	<Estudiante DNI="8104383">
+		<Nombre>Andres Ivan Arboleda Santa</Nombre>
+		<Plan>8209-Ingenieria Informatica</Plan>
+		<Semestre>2010-01</Semestre>
+	</Estudiante>
+	<Horas>
+		<Hora>6-8 AM</Hora>
+		<Lunes/>
+		<Martes>
+			<Asignatura cod="ING00147">
+				<Nombre>Lnea de Profundizacin 2</Nombre>
+				<Grupo num="04"/>
+				<Profesor>Juan lvaro Hoyos Urrego</Profesor>
+				<Tematica>Aplicaciones Distribuidas 2</Tematica>
+				<Aula>P13-206</Aula>
+			</Asignatura>
+		</Martes>
+		<Miercoles/>
+		<Jueves>
+			<Asignatura cod="ING00147">
+				<Nombre>Lnea de Profundizacin 2</Nombre>
+				<Grupo num="04"/>
+				<Profesor>Juan lvaro Hoyos Urrego</Profesor>
+				<Tematica>Aplicaciones Distribuidas 2</Tematica>
+				<Aula>P13-206</Aula>
+			</Asignatura>
+		</Jueves>
+		<Viernes/>
+		<Sabado/>
+	</Horas>
+	<Horas>
+		<Hora>8-10 AM</Hora>
+		<Lunes/>
+		<Martes>
+			<Asignatura cod="ING00146">
+				<Nombre>Tpicos Avazados de Ingeniera del Software</Nombre>
+				<Grupo num="03"/>
+				<Profesor>Jorge Eliecer Giraldo Plaza</Profesor>
+				<Tematica>Ingeniera Web</Tematica>
+				<Aula>P13-203</Aula>
+			</Asignatura>
+		</Martes>
+		<Miercoles/>
+		<Jueves>
+			<Asignatura cod="ING00146">
+				<Nombre>Tpicos Avazados de Ingeniera del Software</Nombre>
+				<Grupo num="03"/>
+				<Profesor>Jorge Eliecer Giraldo Plaza</Profesor>
+				<Tematica>Ingeniera Web</Tematica>
+				<Aula>P13-203</Aula>
+			</Asignatura>
+		</Jueves>
+		<Viernes/>
+		<Sabado>
+			<Asignatura cod="ING00145">
+				<Nombre>Tpicos Avazados</Nombre>
+				<Grupo num="05"/>
+				<Profesor>Michel Gonzalez Charry</Profesor>
+				<Tematica>Servidores1</Tematica>
+				<Aula>P13-208</Aula>
+			</Asignatura>
+		</Sabado>
+	</Horas>
+	<Horas>
+		<Hora>10AM-12M</Hora>
+		<Lunes>
+			<Asignatura cod="ING00527">
+				<Nombre>Trabajo de Grado</Nombre>
+				<Grupo num="01"/>
+				<Profesor>Gladys Helena Vasquez Echavarria</Profesor>
+				<Tematica>M-Learning</Tematica>
+				<Aula>P17-302</Aula>
+			</Asignatura>
+		</Lunes>
+		<Martes/>
+		<Miercoles/>
+		<Jueves/>
+		<Viernes/>
+		<Sabado>
+			<Asignatura cod="ING00145">
+				<Nombre>Tpicos Avazados</Nombre>
+				<Grupo num="05"/>
+				<Profesor>Michel Gonzalez Charry</Profesor>
+				<Tematica>Servidores1</Tematica>
+				<Aula>P13-208</Aula>
+			</Asignatura>
+		</Sabado>
+	</Horas>
+</Horario>
+

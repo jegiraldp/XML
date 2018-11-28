@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<!--
+  Converts a recipe in DESSERT format to a simpler XML format
+  Author: M. Collado
+  History: written 2006-11-19
+-->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+  <xsl:output method="xml" indent="yes"/>
+
+  <xsl:template match="/">
+    <xsl:apply-templates select="*" />
+  </xsl:template>
+
+  <xsl:template match="text()">
+  </xsl:template>
+
+  <xsl:template match="recipe|ingredients|directions">
+    <xsl:copy>
+      <xsl:apply-templates />
+    </xsl:copy>
+  </xsl:template>
+
+  <xsl:template match="title">
+    <xsl:copy-of select="."/>
+  </xsl:template>
+
+  <xsl:template match="ing|step">
+    <xsl:value-of select="normalize-space(.)"/>
+    <xsl:text>
+</xsl:text>
+  </xsl:template>
+
+</xsl:stylesheet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT fichero (cotizacion+)>
+<!ELEMENT cotizacion (nombre+, mercado, fecha)>
+<!ATTLIST cotizacion
+	id CDATA #REQUIRED
+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mercado (#PCDATA)>
+<!ELEMENT fecha (year, mes, dia)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT %n; (#PCDATA)>

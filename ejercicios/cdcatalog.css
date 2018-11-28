@@ -1,0 +1,21 @@
+catalog {
+    background-color: #ffffff;
+}
+cd {
+    display: block;
+    margin-bottom: 30pt;
+    margin-left: 0;
+}
+title {
+    color: #ff0000;
+    font-size: 20pt;
+}
+artist {
+    color: #0000ff;
+    font-size: 20pt;
+}
+country, price, year, company {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+}

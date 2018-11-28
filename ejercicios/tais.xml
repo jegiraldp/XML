@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tais.xsl"?>
+<tais>
+<curso>Topicos Avanzados en Ingenieria de Software</curso>
+<tematica>Ingenieria Web</tematica>
+<docente>Jorge Giraldo</docente>
+
+<estudiantes>
+<estudiante cc="123">rrr
+<nombres>Juan</nombres>
+<apellidos>Perez</apellidos>
+</estudiante>
+
+<estudiante cc="124">
+<nombres>Juan2</nombres>
+<apellidos>Perez2</apellidos>
+</estudiante>
+
+<estudiante cc="125">
+<nombres>Juan3</nombres>
+<apellidos>Perez3</apellidos>
+</estudiante>
+
+
+</estudiantes>
+
+
+</tais>

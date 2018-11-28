@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="vuelos.xsl"?>
+<!DOCTYPE itinerario [
+	<!ELEMENT itinerario (vuelo*)>
+	<!ELEMENT vuelo (logo,aerolinea,origen,horaprogramada,horaestimada,estatus)>
+	<!ELEMENT logo (#PCDATA)>
+	<!ELEMENT aerolinea (#PCDATA)>
+	<!ELEMENT origen (#PCDATA)>
+	<!ELEMENT horaprogramada (#PCDATA)>
+	<!ELEMENT horaestimada (#PCDATA)>
+	<!ELEMENT estatus EMPTY>
+	<!ATTLIST estatus estado (Arrived|OnTime) #REQUIRED>
+	<!ATTLIST vuelo numero ID #REQUIRED>
+]>
+<itinerario>
+	<vuelo numero="V839">
+		<logo>Imagenes\jetblue.jpg</logo>
+		<aerolinea>jetBlue Airways</aerolinea>
+		<origen>New York</origen>
+		<horaprogramada>12:18 AM</horaprogramada>
+		<horaestimada>12:21 AM</horaestimada>
+		<estatus estado="Arrived"/>
+	</vuelo>
+	<vuelo numero="V841">
+		<logo>Imagenes\jetblue.jpg</logo>
+		<aerolinea>jetBlue Airways</aerolinea>
+		<origen>New York</origen>
+		<horaprogramada>03:29 AM</horaprogramada>
+		<horaestimada>03:24 AM</horaestimada>
+		<estatus estado="Arrived"/>
+	</vuelo>
+	<vuelo numero="V833">
+		<logo>Imagenes\jetblue.jpg</logo>
+		<aerolinea>jetBlue Airways</aerolinea>
+		<origen>New York</origen>
+		<horaprogramada>09:14 AM</horaprogramada>
+		<horaestimada>09:14 AM</horaestimada>
+		<estatus estado="OnTime"/>
+	</vuelo>
+	<vuelo numero="V803">
+		<logo>Imagenes\american.jpg</logo>
+		<aerolinea>American Airlines</aerolinea>
+		<origen>New York</origen>
+		<horaprogramada>10:45 AM</horaprogramada>
+		<horaestimada>10:45 AM</horaestimada>
+		<estatus estado="OnTime"/>
+	</vuelo>
+	<vuelo numero="V897">
+		<logo>Imagenes\jetblue.jpg</logo>
+		<aerolinea>jetBlue Airways</aerolinea>
+		<origen>Boston</origen>
+		<horaprogramada>01:48 AM</horaprogramada>
+		<horaestimada>01:48 AM</horaestimada>
+		<estatus estado="OnTime"/>
+	</vuelo>
+</itinerario>

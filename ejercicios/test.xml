@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<cotizacion id="1">
+	<nombre>JorgeUNO</nombre>
+	<mercado>3</mercado>
+	<fecha>
+		<year>2006</year>
+		<mes>Marzo</mes>
+		<dia>21</dia>
+	</fecha>
+	<nombre>JorgeDOS</nombre>
+	<mercado>jorge_mercado_2</mercado>
+	<fecha>
+		<year>200755</year>
+		<mes>Mayo</mes>
+		<dia>22</dia>
+	</fecha>
+</cotizacion>

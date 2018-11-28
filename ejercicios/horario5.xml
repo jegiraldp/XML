@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html" encoding="windows-1252" indent="yes"/>
+
+<xsl:template match="horario">
+	<HTML>
+	<HEAD><TITLE>Horario</TITLE></HEAD>
+	<BODY>
+	<xsl:apply-templates select="dia"/>
+	</BODY>
+	</HTML>
+</xsl:template>
+
+<xsl:template match="dia">
+	<P><xsl:value-of select="document('literales.xml')/literales/*[name()=concat('dia', normalize-space(current()/numdia))]"/></P>
+	<UL>
+	<xsl:apply-templates select="tarea"/>
+	</UL>
+</xsl:template>
+
+<xsl:template match="tarea">
+	<LI><STRONG><xsl:value-of select="nombre"/></STRONG>-
+		Prioridad:<xsl:value-of select="./@prioridad"/><BR></BR>
+		De <xsl:value-of select="hora-ini"/> a <xsl:value-of select="hora-fin"/>
+	</LI>
+</xsl:template>
+
+</xsl:stylesheet>

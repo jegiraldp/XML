@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<Schema name="peliculaschema"
+  xmlns="urn:schemas-microsoft-com:xml-data"
+  xmlns:dt="urn:schemas-microsoft-com:datatypes">
+  <ElementType name="titulo" content="textOnly"/>
+
+  <ElementType name="escritor" content="textOnly"/>
+
+  <ElementType name="productor" content="textOnly"/>
+
+  <ElementType name="director" content="textOnly"/>
+
+  <ElementType name="actor" content="textOnly"/>
+
+  <ElementType name="comentario" content="textOnly"/>
+
+  <AttributeType name="tipo" dt:type="enumeration"
+    dt:values="drama comedy adventure sci-fi mystery horror romance documentary"
+    default="drama"/>
+
+    <ElementType name="pelicula" content="eltOnly" order="seq">
+    <element type="titulo" minOccurs="1" maxOccurs="1"/>
+    <element type="escritor" minOccurs="1" maxOccurs="*"/>
+    <element type="productor" minOccurs="1" maxOccurs="*"/>
+    <element type="director" minOccurs="1" maxOccurs="*"/>
+    <element type="actor" minOccurs="0" maxOccurs="*"/>
+    <element type="comentario" minOccurs="0" maxOccurs="1"/>
+    <attribute type="tipo"/>
+    </ElementType>
+
+  <ElementType name="peliculas" content="eltOnly">
+    <element type="pelicula" minOccurs="1" maxOccurs="*"/>
+  </ElementType>
+</Schema>

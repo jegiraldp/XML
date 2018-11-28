@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<libros>
+
+<libro año="2001">
+<titulo>Sistemas Distribuidos</titulo>
+<autor>
+<nombre>George</nombre>
+<apellido>Colouris</apellido>
+</autor>
+</libro>
+
+<libro año="2003">
+<titulo>Programacion XML</titulo>
+<autor>
+<nombre>Fabio</nombre>
+<apellido>Arciniegas</apellido>
+</autor>
+</libro>
+
+</libros>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html>
+  <head>
+    <title>Manuel Collado</title>
+
+    <link href="mcollado.css" rel="StyleSheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="top"><table border="1">
+        <tbody>
+          <tr>
+            <td colspan="1" rowspan="1" style="width: 20em;"><a
+            href="http://www.ls.fi.upm.es/" shape="rect"><img alt="DLSIIS"
+            src="logolsiis.png" />Dep. de Lenguajes y<br />Sistemas
+            Informáticos e<br />Ingeniería de Software</a></td>
+
+            <td colspan="1" rowspan="1" style="width: 15em;"><a
+            href="http://www.fi.upm.es/" shape="rect"><img alt="FIM"
+            src="logofim.png" />Facultad de<br />Informática</a></td>
+
+            <td colspan="1" rowspan="1" style="width: 15em;"><a
+            href="http://www.upm.es/" shape="rect"><img alt="FIM"
+            src="logoupm.png" />Universidad<br />Politécnica<br />de
+            Madrid</a></td>
+          </tr>
+        </tbody>
+      </table></div>
+
+    <h1>Profesor: Manuel Collado</h1>
+
+    <p><b>Despacho:</b> D-2309<br /><b>Teléfono:</b>
+    91-336.7457<br /><b>Fax:</b> 91-336.6595<br /><b>E-mail:</b> <a
+    href="mailto:mcollado@fi.upm.es">mcollado@fi.upm.es</a></p>
+
+    <h2>Docencia</h2>
+
+    <!--    <p>2º Curso: <a href="http://lml.ls.fi.upm.es/ed2">Estructuras de Datos
+    II</a></p>-->
+
+    <p>4º Curso: <a href="http://lml.ls.fi.upm.es/ep-4">Entornos de
+    Programación</a></p>
+
+    <p>5º Curso: <a href="http://lml.ls.fi.upm.es/~mcollado/si/">Sistemas
+    Informáticos</a></p>
+
+    <p>Doctorado: <a
+    href="http://lml.ls.fi.upm.es/~mcollado/doctoxml">Tecnologías XML en
+    Desarrollo de Software</a></p>
+
+    <p>Master T.I.: <a
+    href="http://lml.ls.fi.upm.es/~mcollado/masterxml">Tecnologías XML en
+    Desarrollo de Software</a></p>
+
+    <p>Seminario: <a href="http://lml.ls.fi.upm.es/~mcollado/xml/">Curso de
+    introducción a XML</a></p>
+
+    <h2>Trabajos personales</h2>
+
+    <p><a href="http://lml.ls.fi.upm.es/~mcollado/emu-code/">Proyecto
+    EMU-Code</a></p>
+
+    <p><a href="http://lml.ls.fi.upm.es/~mcollado/xmlgawk/">XMLgawk</a></p>
+
+    <h2>Enlaces de interés</h2>
+
+    <p><a href="enlaces/devtools.html">Entornos y herramientas para desarrollo
+    de software</a></p>
+
+    <p><a href="enlaces/xml.html">Material XML</a></p>
+  </body>
+</html>

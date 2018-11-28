@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<!--
+  Converts a recipe in DESSERT format to a plain text format
+  Author: M. Collado
+  History: written 2006-11-18
+-->
+  <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+  <xsl:output method="text"/>
+
+  <xsl:template name="nl">
+    <xsl:text>
+</xsl:text>
+  </xsl:template>
+
+  <xsl:template match="/">
+    <xsl:apply-templates select="*" />
+  </xsl:template>
+
+  <xsl:template match="text()">
+  </xsl:template>
+
+  <xsl:template match="title">
+    <xsl:value-of select="."/>
+    <xsl:call-template name="nl" />
+  </xsl:template>
+
+  <xsl:template match="ingredients">
+    <xsl:text>
+Ingredients:
+
+</xsl:text>
+    <xsl:apply-templates select="ing"/>
+  </xsl:template>
+
+  <xsl:template match="ing">
+    <xsl:text>  </xsl:text>
+    <xsl:apply-templates select="*" />
+    <xsl:call-template name="nl" />
+  </xsl:template>
+
+  <xsl:template match="ing/*">
+    <xsl:value-of select="."/><xsl:text> </xsl:text>
+  </xsl:template>
+
+  <xsl:template match="directions">
+    <xsl:text>
+Directions:
+
+</xsl:text>
+    <xsl:apply-templates select="step"/>
+  </xsl:template>
+
+  <xsl:template match="step">
+    <xsl:text>  </xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:call-template name="nl" />
+  </xsl:template>
+
+</xsl:stylesheet>

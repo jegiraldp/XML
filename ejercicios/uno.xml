@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<hola xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080">
+	<mundo xlink:show="replace">saludos</mundo>
+</hola>

@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/TR/WD-xsl">
+<xsl:template match="/">
+<HTML>
+<HEAD>
+<TITLE>Hoja de Estilos de Libro de cocina</TITLE>
+</HEAD>
+<BODY background="trabfon.gif">
+<xsl:for-each select="librodecocina/seccion">
+    <xsl:apply-templates select="titulosec"/>
+     <xsl:for-each select="receta">
+       <xsl:apply-templates select="titulo"/>
+         <h3  Align="center"> Ingredientes </h3>
+        <table  Align="center" border="3" >
+        <tr>
+          <th>descripcion</th>
+          <th>cantidad</th>
+        </tr>
+        <xsl:for-each order-by="+ descripcion" select="ingredientes/ingrediente">
+          <tr>
+            <td><xsl:value-of select="descripcion"/></td>
+            <td><xsl:value-of select="cantidad"/></td>
+          </tr>
+         </xsl:for-each>
+        </table>
+       <h3  Align="Center"> Preparacion </h3>
+      <xsl:apply-templates select="preparacion"/>
+     </xsl:for-each>
+ </xsl:for-each>
+</BODY>
+</HTML>
+</xsl:template>
+    <xsl:template match="titulosec">
+    <h1><FONT Color="olive"><U><xsl:value-of /><IMG src="strawberry.gif"/>
+    </U></FONT></h1>
+    </xsl:template>
+    <xsl:template match="titulo">
+        <h2><FONT  Color="red" Face="Comic Sans MS" ><xsl:value-of /></FONT></h2>
+    </xsl:template>
+    
+     <xsl:template match="preparacion">
+       <FONT Color="olive"  Face="Comic Sans MS"  Size="5" ><xsl:value-of /></FONT> 
+    </xsl:template>
+
+    
+</xsl:stylesheet>
+
+

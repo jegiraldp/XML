@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!--Lineas-->
+<!DOCTYPE Lineas SYSTEM "Lineas.dtd">
+<Lineas>
+	<Plan Id="2">
+		<Materia Nombre="LP I." Codigo="Ing00386">
+			<Curso Nombre="Dllo de Aplicaciones Web I">
+				<Docente Nombre="Oscar Duque">
+					<Grupo Id="1" Horario="M-J 6-8" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+					<Grupo Id="2" Horario="M 18-22" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+					<Grupo Id="3" Horario="S 6-10" Aula_Teoria="P13-211" Aula_Laboratorio=" "/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Dllo de Apl. Distribuidas I">
+				<Docente Nombre="Sorey Garcia">
+					<Grupo Id="4" Horario="L-Mc 20-22" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+					<Grupo Id="6" Horario="J 18-22" Aula_Teoria="P13-209" Aula_Laboratorio="P13-209"/>
+				</Docente>
+				<Docente Nombre="Edisson Villa">
+					<Grupo Id="5" Horario="M-J 12-14" Aula_Teoria="P13-207" Aula_Laboratorio="P13-207"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="LP II." Codigo="Ing00389">
+			<Curso Nombre="Dllo de Aplicaciones Web II">
+				<Docente Nombre="Jose M Jaramillo">
+					<Grupo Id="1" Horario="V 18-22" Aula_Teoria="P17-110 (18-20)" Aula_Laboratorio="P13-206 (20-22)"/>
+				</Docente>
+				<Docente Nombre="Edisson Villa">
+					<Grupo Id="2" Horario="Mc-V 12-14" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+				</Docente>
+				<Docente Nombre="Didier Granados">
+					<Grupo Id="5" Horario="Mc 18-22" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Dllo de Apl. Distribuidas II">
+				<Docente Nombre="Juan A. Hoyos">
+					<Grupo Id="3" Horario="Mc-V 6-8" Aula_Teoria="P13-202 Mc" Aula_Laboratorio="P17-118 V"/>
+					<Grupo Id="4" Horario="M-J 6-8" Aula_Teoria="P13-202 M" Aula_Laboratorio="P38-201 J"/>
+				</Docente>
+				<Docente Nombre="Oscar Duque">
+					<Grupo Id="6" Horario="L 18-22" Aula_Teoria="P13-211" Aula_Laboratorio="P13-211"/>
+				</Docente>
+			</Curso>
+		</Materia>
+	</Plan>
+	<Plan Id="8">
+		<Materia Nombre="LP A1" Codigo="Ing00149">
+			<Curso Nombre="Dllo de Aplicaciones Web I">
+				<Docente Nombre="Oscar Duque">
+					<Grupo Id="1" Horario="M-J 6-8" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+					<Grupo Id="2" Horario="M 18-22" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+					<Grupo Id="3" Horario="S 6-10" Aula_Teoria="P13-211" Aula_Laboratorio=" "/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Dllo de Apl. Distribuidas I">
+				<Docente Nombre="Sorey Garcia">
+					<Grupo Id="4" Horario="L-Mc 20-22" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+					<Grupo Id="6" Horario="J 18-22" Aula_Teoria="P13-209" Aula_Laboratorio="P13-209"/>
+				</Docente>
+				<Docente Nombre="Edisson Villa">
+					<Grupo Id="5" Horario="M-J 12-14" Aula_Teoria="P13-207" Aula_Laboratorio="P13-207"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="LP A2" Codigo="Ing00152">
+			<Curso Nombre="Dllo de Aplicaciones Web II">
+				<Docente Nombre="Jose M Jaramillo">
+					<Grupo Id="1" Horario="V 18-22" Aula_Teoria="P17-110 (18-20)" Aula_Laboratorio="P13-206 (20-22)"/>
+				</Docente>
+				<Docente Nombre="Edisson Villa">
+					<Grupo Id="2" Horario="Mc-V 12-14" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+				</Docente>
+				<Docente Nombre="Didier Granados">
+					<Grupo Id="5" Horario="Mc 18-22" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Dllo de Apl. Distribuidas II">
+				<Docente Nombre="Juan A. Hoyos">
+					<Grupo Id="3" Horario="Mc-V 6-8" Aula_Teoria="P13-202 Mc" Aula_Laboratorio="P17-118 V"/>
+					<Grupo Id="4" Horario="M-J 6-8" Aula_Teoria="P13-202 M" Aula_Laboratorio="P38-201 J"/>
+				</Docente>
+				<Docente Nombre="Oscar Duque">
+					<Grupo Id="6" Horario="L 18-22" Aula_Teoria="P13-211" Aula_Laboratorio="P13-211"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="LP B1" Codigo="Ing00151">
+			<Curso Nombre="Admin de Servidores I">
+				<Docente Nombre="Ricardo Isaza">
+					<Grupo Id="1" Horario="Mc 18-22" Aula_Teoria="P17-309 (18-20)" Aula_Laboratorio="P13-208 (20-22)"/>
+				</Docente>
+				<Docente Nombre="Michel Gonzalez">
+					<Grupo Id="2" Horario="J 18-22" Aula_Teoria="P13-211" Aula_Laboratorio="P13-211"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Calidad del Servicio I">
+				<Docente Nombre="Claudia Velazquez">
+					<Grupo Id="3" Horario="M 18-22" Aula_Teoria="P38-201 (18-20)" Aula_Laboratorio="P13-202 (20-22)"/>
+					<Grupo Id="4" Horario="L-Mc 18-20" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="LP B2" Codigo="Ing00153">
+			<Curso Nombre="Admin de Servidores II">
+				<Docente Nombre="Didier Quintero">
+					<Grupo Id="1" Horario="L 18-22" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+					<Grupo Id="2" Horario="M 18-22" Aula_Teoria="P13-307" Aula_Laboratorio="P13-307"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Calidad del Servicio II">
+				<Docente Nombre="Juan C. Londo&#241;o">
+					<Grupo Id="3" Horario="S 6-10" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+					<Grupo Id="4" Horario="S 10-14" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="LP AB" Codigo="Ing00154">
+			<Curso Nombre="Ingeneria Web">
+				<Docente Nombre="Jorge Giraldo">
+					<Grupo Id="1" Horario="M-J 18-20" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+					<Grupo Id="2" Horario="Mc-V 6-8" Aula_Teoria="P13-203 Mc" Aula_Laboratorio="P13-203 V"/>
+					<Grupo Id="3" Horario="M-J 8-10" Aula_Teoria="P13-211" Aula_Laboratorio="P13-211"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Miner&#237;a de Datos">
+				<Docente Nombre="Jos&#233; M. Jaramillo">
+					<Grupo Id="4" Horario="S 8-12" Aula_Teoria="P13-208 (8-10)" Aula_Laboratorio="P13-202 (10-12)"/>
+					<Grupo Id="5" Horario="M-J 20-22" Aula_Teoria="P13-202" Aula_Laboratorio="P13-202 "/>
+					<Grupo Id="6" Horario="V-S 6-8" Aula_Teoria="P13-203 V" Aula_Laboratorio="P13-205 S"/>
+				</Docente>
+			</Curso>
+		</Materia>
+	</Plan>
+	<Plan Id="9">
+		<Materia Nombre="LP 1" Codigo="Ing00156">
+			<Curso Nombre="Dllo de Aplicaciones Web I">
+				<Docente Nombre="Oscar Duque">
+					<Grupo Id="1" Horario="M-J 6-8" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+					<Grupo Id="2" Horario="M 18-22" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+					<Grupo Id="3" Horario="S 6-10" Aula_Teoria="P13-211" Aula_Laboratorio=" "/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Dllo de Apl. Distribuidas I">
+				<Docente Nombre="Sorey Garcia">
+					<Grupo Id="4" Horario="L-Mc 20-22" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+					<Grupo Id="6" Horario="J 18-22" Aula_Teoria="P13-209" Aula_Laboratorio="P13-209"/>
+				</Docente>
+				<Docente Nombre="Edisson Villa">
+					<Grupo Id="5" Horario="M-J 12-14" Aula_Teoria="P13-207" Aula_Laboratorio="P13-207"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="LP 2" Codigo="Ing00157">
+			<Curso Nombre="Dllo de Aplicaciones Web II">
+				<Docente Nombre="Jose M Jaramillo">
+					<Grupo Id="1" Horario="V 18-22" Aula_Teoria="P17-110 (18-20)" Aula_Laboratorio="P13-206 (20-22)"/>
+				</Docente>
+				<Docente Nombre="Edisson Villa">
+					<Grupo Id="2" Horario="Mc-V 12-14" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+				</Docente>
+				<Docente Nombre="Didier Granados">
+					<Grupo Id="5" Horario="Mc 18-22" Aula_Teoria="P13-205" Aula_Laboratorio="P13-205"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Dllo de Apl. Distribuidas II">
+				<Docente Nombre="Juan A. Hoyos">
+					<Grupo Id="3" Horario="Mc-V 6-8" Aula_Teoria="P13-202 Mc" Aula_Laboratorio="P17-118 V"/>
+					<Grupo Id="4" Horario="M-J 6-8" Aula_Teoria="P13-202 M" Aula_Laboratorio="P38-201 J"/>
+				</Docente>
+				<Docente Nombre="Oscar Duque">
+					<Grupo Id="6" Horario="L 18-22" Aula_Teoria="P13-211" Aula_Laboratorio="P13-211"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="Topicos Avanzados" Codigo="Ing00145">
+			<Curso Nombre="Admin de Servidores I">
+				<Docente Nombre="Ricardo Isaza">
+					<Grupo Id="1" Horario="Mc 18-22" Aula_Teoria="P17-309 (18-20)" Aula_Laboratorio="P13-208 (20-22)"/>
+				</Docente>
+				<Docente Nombre="Michel Gonzalez">
+					<Grupo Id="2" Horario="J 18-22" Aula_Teoria="P13-211" Aula_Laboratorio="P13-211"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Calidad del Servicio I">
+				<Docente Nombre="Claudia Velazquez">
+					<Grupo Id="3" Horario="M 18-22" Aula_Teoria="P38-201 (18-20)" Aula_Laboratorio="P13-202 (20-22)"/>
+					<Grupo Id="4" Horario="L-Mc 18-20" Aula_Teoria="P13-206" Aula_Laboratorio="P13-206"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="LP 3" Codigo="Ing00158">
+			<Curso Nombre="Admin de Servidores II">
+				<Docente Nombre="Didier Quintero">
+					<Grupo Id="1" Horario="L 18-22" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+					<Grupo Id="2" Horario="M 18-22" Aula_Teoria="P13-307" Aula_Laboratorio="P13-307"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Calidad del Servicio II">
+				<Docente Nombre="Juan C. Londo&#241;o">
+					<Grupo Id="3" Horario="S 6-10" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+					<Grupo Id="4" Horario="S 10-14" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+				</Docente>
+			</Curso>
+		</Materia>
+		<Materia Nombre="Topicos Avanzados en Ing. de Software" Codigo="Ing00146">
+			<Curso Nombre="Ingeneria Web">
+				<Docente Nombre="Jorge Giraldo">
+					<Grupo Id="1" Horario="M-J 18-20" Aula_Teoria="P13-203" Aula_Laboratorio="P13-203"/>
+					<Grupo Id="2" Horario="Mc-V 6-8" Aula_Teoria="P13-203 Mc" Aula_Laboratorio="P13-203 V"/>
+					<Grupo Id="3" Horario="M-J 8-10" Aula_Teoria="P13-211" Aula_Laboratorio="P13-211"/>
+				</Docente>
+			</Curso>
+			<Curso Nombre="Miner&#237;a de Datos">
+				<Docente Nombre="Jos&#233; M. Jaramillo">
+					<Grupo Id="4" Horario="S 8-12" Aula_Teoria="P13-208 (8-10)" Aula_Laboratorio="P13-202 (10-12)"/>
+					<Grupo Id="5" Horario="M-J 20-22" Aula_Teoria="P13-202" Aula_Laboratorio="P13-202 "/>
+					<Grupo Id="6" Horario="V-S 6-8" Aula_Teoria="P13-203 V" Aula_Laboratorio="P13-205 S"/>
+				</Docente>
+			</Curso>
+		</Materia>
+	</Plan>
+</Lineas>

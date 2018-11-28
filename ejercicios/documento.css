@@ -1,0 +1,26 @@
+documento > titulo {
+    display: block;
+    font-size: 35pt;
+    margin-bottom: 20pt;
+    margin-left: 20;
+    color: #f00;
+}
+
+seccion {
+    display: block;
+    margin-left: 2em;
+}
+titulo {
+    display: block;
+    font-size: 25pt;
+    margin-bottom: 10pt;
+    color: #00f;
+}
+
+parrafo {
+    display: block;
+    font-size: 15pt;
+    margin-bottom: 10pt;
+}
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="xsluno.xsl"?>
+<libro>
+	<tit>TITULO DEL LIBRO</tit>
+	<capitulo id="01">
+		<titulo>TITULO CAP 1</titulo>
+		<seccion>
+			<titulo>TITULO SECCION 1</titulo>
+		</seccion>
+	</capitulo>
+	<capitulo id="02">
+		<titulo>TITULO CAP 1</titulo>
+		<seccion>
+			<titulo>TITULO SECCION 2</titulo>
+		</seccion>
+	</capitulo>
+</libro>

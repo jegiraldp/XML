@@ -1,0 +1,4 @@
+<!ELEMENT hola (mundo)>
+<!ELEMENT mundo ANY>
+<!ATTLIST mundo
+ xlink:href  CDATA #REQUIRED>

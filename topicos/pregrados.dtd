@@ -1,0 +1,6 @@
+<!ELEMENT pregrados (pregrado+)>
+<!ELEMENT pregrado (nombre+)>
+<!ELEMENT nombre (#PCDATA)>
+
+<!ATTLIST pregrado
+	id CDATA #REQUIRED>

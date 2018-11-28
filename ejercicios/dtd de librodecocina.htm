@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<font color="#666600" face="Georgia, Times New Roman, Times, serif" size="3">&lt;!ELEMENT 
+librodecocina (seccion)+&gt;<br>
+&lt;!ELEMENT seccion (titulosec, receta+)&gt;<br>
+&lt;!ELEMENT titulosec (#PCDATA)&gt;<br>
+&lt;!ELEMENT receta (titulo, ingredientes, preparacion)&gt;<br>
+&lt;!ELEMENT titulo (#PCDATA)&gt;<br>
+&lt;!ELEMENT ingredientes (ingrediente*)&gt;<br>
+&lt;!ELEMENT ingrediente (descripcion,cantidad)&gt;<br>
+&lt;!ELEMENT descripcion (#PCDATA)&gt;<br>
+&lt;!ELEMENT cantidad (#PCDATA)&gt;<br>
+&lt;!ELEMENT preparacion (#PCDATA)&gt; </font> 
+</body>
+</html>

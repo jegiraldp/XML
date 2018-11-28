@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1252"?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:output method="html" encoding="windows-1252" indent="yes"/>
+
+<xsl:template match="horario">
+	<HTML>
+	<HEAD><TITLE>Horario</TITLE></HEAD>
+	<BODY>
+	<xsl:apply-templates select="*"/>
+	</BODY>
+	</HTML>
+</xsl:template>
+
+<xsl:template match="*">
+	<LI>
+	<STRONG><xsl:value-of select="position()"/><xsl:text> </xsl:text><xsl:value-of select="name()"/></STRONG> - Hijos: <xsl:value-of select="count(*)"/>
+	</LI>
+	<UL>
+	<xsl:apply-templates select="*"/>
+	</UL>
+</xsl:template>
+
+
+</xsl:stylesheet>

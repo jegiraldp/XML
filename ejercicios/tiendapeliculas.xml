@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<tiendapeliculas>
+
+<nombre>Peliculas la 18</nombre>	
+<barrio>Alpes</barrio>	
+<peliculas>   
+<pelicula tipo="comedia">
+      <titulo>Raising Arizona</titulo>
+      <escritor cc="01">Ethan Coen</escritor>
+      <escritor cc="02">Joel Coen</escritor>
+      <productor>Ethan Coen</productor>
+      <director>Joel Coen</director>
+      <actor id="01">Nicolas Cage</actor>
+      <actor id="02">Holly Hunter</actor>
+      <actor id="03">John Goodman</actor>
+      <comentario>Una historia de amor con final inusitado.</comentario>
+   </pelicula>
+   <pelicula tipo="comedia">
+      <titulo>Midnight Run</titulo>
+      <escritor cc="01">George Gallo</escritor>
+      <productor>Martin Brest</productor>
+      <director>Martin Brest</director>
+      <actor id="01">Robert De Niro</actor>
+      <actor id="02">Charles Grodin</actor>
+      <comentario>La quintaesencia de las comedias de carretera.</comentario>
+   </pelicula>
+   <pelicula tipo="misterio">
+      <titulo>The Usual Suspects</titulo>
+      <escritor cc="01">Christopher McQuarrie</escritor>
+      <productor id="01">Bryan Singer</productor>
+      <productor id="02">Michael McDonnell</productor>
+      <director>Bryan Singer</director>
+      <actor id="01">Stephen Baldwin</actor>
+      <actor id="02">Gabriel Byrne</actor>
+      <actor id="03">Benicio Del Toro</actor>
+      <actor id="04">Chazz Palminteri</actor>
+      <actor id="05">Kevin Pollak</actor>
+      <actor id="06">Kevin Spacey</actor>
+      <comentario>Un crimen con cambios en el argumento muy intrincados.</comentario>
+   </pelicula>
+   <pelicula tipo="sci-fi">
+      <titulo>The Abyss</titulo>
+      <escritor cc="01">James Cameron</escritor>
+      <productor id="01">Gale Anne Hurd</productor>
+      <director>James Cameron</director>
+      <actor id="01">Ed Harris</actor>
+      <actor id="02">Mary Elizabeth Mastrantonio</actor>
+      <comentario>Una odisea submarina muy comprometida.</comentario>
+   </pelicula>
+</peliculas>   
+</tiendapeliculas>

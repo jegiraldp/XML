@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="itinerario">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="vuelo"/>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="aerolinea" maxoccurs="1"/>
+							<xs:element name="origen" maxoccurs="1"/>
+							<xs:element name="horaprogramado" maxoccurs="1"/>
+							<xs:element name="horaestimada" maxoccurs="1"/>
+							<xs:element name="estatus" maxoccurs="1"/>
+							<xs:attribute name="estado" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+			</xs:sequence>
+			<xs:attribute name="numero"/>
+		</xs:complexType>
+	</xs:element>	
+</xs:schema>

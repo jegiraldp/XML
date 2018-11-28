@@ -1,0 +1,19 @@
+<!ELEMENT proceso (secuencia)>
+<!ATTLIST proceso
+	nombre CDATA #REQUIRED>
+
+<!ELEMENT secuencia (paralelo, actividadOpaca)>
+<!ELEMENT paralelo (actividadOpaca)>
+
+<!ELEMENT actividadOpaca (condicion)>
+<!ATTLIST actividadOpaca
+	nombre CDATA #REQUIRED
+	id CDATA  #REQUIRED>
+
+<!ELEMENT condicion (expresion)>
+<!ELEMENT expresion (#PCDATA)>
+
+
+
+	
+

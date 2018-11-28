@@ -1,0 +1,19 @@
+catalog {
+  display: table;
+  background-color: #ffffff;
+  border-collapse: collapse;
+}
+cd {
+  display: table-row;
+}
+
+title, artist, country, company, price, year {
+  display: table-cell;
+  border: 1px solid;
+  padding: 0.5ex;
+}
+
+price:before {
+  content: "$";
+}
+

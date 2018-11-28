@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--<!DOCTYPE fichero SYSTEM "xml2.dtd">-->
+<fichero>
+	<cotizacion id="1">
+		<nombre>Cotizacion de pcs</nombre>
+		<mercado>hola</mercado>
+		<fecha>
+			<year>2006</year>
+			<mes>Marzo</mes>
+			<dia>hola</dia>
+		</fecha>
+	</cotizacion>
+</fichero>

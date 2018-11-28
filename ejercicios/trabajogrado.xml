@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="grado.xsl"?>
+<trabajogrado>
+	<titulo>Sistema de Informacion T21</titulo>
+	<autor id="1">Juan Perez</autor>
+	<autor id="2">Maria Perez</autor>
+	<autor id="2">Maria Perez</autor>
+	<ie>INEM</ie>
+	<ciudad>Medellin</ciudad>
+	<grado>11 B</grado>
+	<promocion>2008</promocion>
+	<contacto>juanp@correo.com - mariap@correo.com</contacto>
+</trabajogrado>

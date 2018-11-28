@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE proceso SYSTEM "dtdprocess.dtd">
+
+<proceso nombre="reserva">
+	<secuencia>
+		
+		<ActividadOpaca nombre="C" id="vacio">
+			<condicion>Una condicion</condicion>
+    	</ActividadOpaca>
+	
+	 <ActividadOpaca nombre="AV" id="vacio">
+		<condicion>Una condicion</condicion>
+	 </ActividadOpaca>
+		
+		<paralelo>
+			<ActividadOpaca nombre="LA" id="vacio"/>
+			<ActividadOpaca nombre="H" id="vacio"/>
+		</paralelo>
+		
+	</secuencia>
+	
+</proceso>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsldos.xsl"?>
+<xsluno>
+	<titulo>Mi primer XSL</titulo>
+	<autor>http:&#47;&#47;www.google.com</autor>
+</xsluno>

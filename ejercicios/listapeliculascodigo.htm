@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<font size="3" face="Georgia, Times New Roman, Times, serif" color="#FF0000">&lt;!DOCTYPE 
+HTML PUBLIC &quot;-//IETF//DTD HTML//EN&quot;&gt; </font> 
+<p><font size="3" face="Georgia, Times New Roman, Times, serif" color="#FF0000">&lt;html&gt;<br>
+  &lt;head&gt;<br>
+  &lt;title&gt;Enumerar Peliculas&lt;/title&gt;<br>
+  &lt;script language=&quot;JavaScript&quot;&gt;<br>
+  var xmldoc;</font></p>
+<p><font size="3" face="Georgia, Times New Roman, Times, serif" color="#FF0000"> 
+  function LoadDoc() {<br>
+  xmldoc = new ActiveXObject(&quot;microsoft.xmldom&quot;);<br>
+  xmldoc.load(&quot;peliculas.xml&quot;);<br>
+  }</font></p>
+<p><font size="3" face="Georgia, Times New Roman, Times, serif" color="#FF0000"> 
+  function ListaPeliculas() {<br>
+  LoadDoc();<br>
+  root = xmldoc.documentElement;<br>
+  for (i = 0; i &lt; root.childNodes.length; i++) {<br>
+  DOCCONTENT.innerHTML += &quot;&lt;b&gt;&quot; +<br>
+  root.childNodes.item(i).firstChild.text + &quot;&lt;/b&gt;&lt;br&gt;&quot;;<br>
+  DOCCONTENT.innerHTML += root.childNodes.item(i).lastChild.text + &quot;&lt;br&gt;&lt;br&gt;&quot;;<br>
+  }<br>
+  }<br>
+  &lt;/script&gt;<br>
+  &lt;/head&gt;</font></p>
+<p> <font size="3" face="Georgia, Times New Roman, Times, serif" color="#FF0000">&lt;body&gt;<br>
+  Haga clic en el boton para enumerar las peliculas del documento XML Peliculas.<br>
+  &lt;br&gt;<br>
+  &lt;input type=&quot;button&quot; value=&quot;Enumerar peliculas&quot; onclick=&quot;ListaPeliculas()&quot;&gt;<br>
+  &lt;div id=&quot;DOCCONTENT&quot;&gt;&lt;/div&gt;<br>
+  &lt;/body&gt;<br>
+  &lt;/html&gt;</font></p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<font color="#006666" size="3" face="Georgia, Times New Roman, Times, serif">&lt;!ELEMENT 
+peliculas (pelicula)+&gt; </font> 
+<p><font color="#006666" size="3" face="Georgia, Times New Roman, Times, serif">&lt;!ELEMENT 
+  pelicula (titulo, escritor+, productor+, director+, actor*, comentario?)&gt;<br>
+  &lt;!ATTLIST pelicula tipo (drama | comedia | aventura | sci-fi | misterio | 
+  terror | romance ) &quot;drama&quot; &gt;<br>
+  &lt;!ELEMENT titulo (#PCDATA)&gt;</font></p>
+<p><font color="#006666" size="3" face="Georgia, Times New Roman, Times, serif">&lt;!ELEMENT 
+  escritor (#PCDATA)&gt;</font></p>
+<p><font color="#006666" size="3" face="Georgia, Times New Roman, Times, serif">&lt;!ELEMENT 
+  productor (#PCDATA)&gt;</font></p>
+<p><font color="#006666" size="3" face="Georgia, Times New Roman, Times, serif">&lt;!ELEMENT 
+  director (#PCDATA)&gt;</font></p>
+<p><font color="#006666" size="3" face="Georgia, Times New Roman, Times, serif">&lt;!ELEMENT 
+  actor (#PCDATA)&gt;</font></p>
+<p><font color="#006666" size="3" face="Georgia, Times New Roman, Times, serif">&lt;!ELEMENT 
+  comentario (#PCDATA)&gt;</font></p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="sesiones.xsl"?>
+<sesiones>
+<sesion id="1">
+<tema>Servicios publicos</tema>
+<expositor>Alcalde</expositor>
+</sesion>					
+<sesion id="2">
+<tema>Carreteras</tema>
+<expositor>Gobernador</expositor>
+</sesion>
+<sesion id="2">
+<tema>Carreteras</tema>
+<expositor>Gobernador</expositor>
+</sesion>
+</sesiones>
